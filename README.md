@@ -2,9 +2,8 @@
 
 Welcome to the `CCR and GPU tools` repository, where we provide a collection of utilities designed to enhance your experience with GPUs and CCR (Computational Cluster Resources).
 
-## Configuring Unused GPUs as Primary Display Units
-
-To set specific GPUs as the only ones recognized by your system, ensuring that other GPUs remain unused, follow these steps:
+## Configuring Unused GPUs
+The `set_cuda_device.sh` script assists in detecting unused GPUs and designates them as the sole visible devices through the CUDA_VISIBLE_DEVICES environment variable.
 
 1. Make the script executable:
    ```bash
